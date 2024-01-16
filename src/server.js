@@ -62,5 +62,5 @@ app.get('/buscarUsuarios', async (req, res) => {
 
 
 app.listen(port, '0.0.0.0',() => {
-  console.log(`Servidor escuchando en http://localhost:${port}`);
+  console.log(`Servidor escuchando en https://18.220.194.6:${port}`);
 }); 
